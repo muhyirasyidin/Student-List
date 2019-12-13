@@ -1,0 +1,2 @@
+<a id="edit-button" href="{{ url('student/form/edit', $data->id) }}" class="btn btn-warning edit-button"><i class="fa fa-edit"></i></a>
+<button id="delete-button" value="{{ $data->id }}" class="btn btn-danger delete-button"><i class="fa fa-trash"></i></button>
